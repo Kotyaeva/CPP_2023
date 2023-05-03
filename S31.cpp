@@ -8,14 +8,14 @@ int main(){
     int number;
     cout<<" введите число от 0 до 9: ";
     cin>>number;
-        if ((number<0)||(number>9)){
+    if ((number<0)||(number>9)){
             cout<<"Данное число не входит в диапазон от 0 до 9!!!"<<endl;
-}
+    }
     int len=sizeof(m)/sizeof(m[0]);
-        for(int i=0; i<=len; ++i){
+    for(int i=0; i<=len; ++i){
             if (i==number){
                 cout<<m[i]<<endl;
-                return 0;
-        }
     }
-}
+    }
+    return 0;
+    }
