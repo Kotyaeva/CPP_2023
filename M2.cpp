@@ -19,4 +19,3 @@ int main(){
     cin>>N;
     pl(A, N);
 }
-}
