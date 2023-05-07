@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main(){
@@ -8,9 +7,12 @@ int main(){
     while(a<=1000){
             a=a+4;
     if(a<=1000)
-        if(a%7==0){b=b+a;}
-    else{b=b;}
+        if(a%7==0){
+            b=b+a;
+    }else{
+        b=b;
+        }
     }
     cout<<"Сумма чисел равна: "<<b<<endl;
     return 0;
-    }
+}
