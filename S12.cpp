@@ -11,7 +11,7 @@ int main(){
             b=b+a;
     }else{
         b=b;
-        }
+    }
     }
     cout<<"Сумма чисел равна: "<<b<<endl;
     return 0;
