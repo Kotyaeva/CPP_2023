@@ -9,7 +9,8 @@ using namespace std;
      while(file>>b){
             cout<<n<<". "<<b<<endl;
             ++n;
-            }
+     }
+     
      file.close();
      return 0;
-     }
+}
