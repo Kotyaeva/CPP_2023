@@ -14,8 +14,9 @@ int main(){
     int len=sizeof(m)/sizeof(m[0]);
     for(int i=0; i<=len; ++i){
             if (i==number){
-                cout<<m[i]<<endl;
-    }
+                    cout<<m[i]<<endl;
+            }
+            
     }
     return 0;
-    }
+}
