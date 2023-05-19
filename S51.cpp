@@ -7,9 +7,9 @@ int main(){
     string a;
     cout << "Введите слово: ";
     cin >> a;
-    for (int i = a.size() - 1; i >= 0; i--){
-    cout << a[i];
-    }
+        for (int i = a.size() - 1; i >= 0; i--){
+        cout << a[i];
+        }
 
-return 0;
+    return 0;
 }
